@@ -4,7 +4,7 @@
 - Clone the code repository using `git clone https://github.com/aishwaryaprabhat/CS7641-Machine-Learning.git`
 - Navigate to the `supervised-learning` directory using `cd CS7641-Machine-Learing/supervised-learning`
 - Install conda (refer to https://conda.io/projects/conda/en/latest/user-guide/install/index.html for instructions)
-- Set up virtual environment
+- Set up and activate the virtual environment using:
 ```
 conda env create -f conda_env.yml
 conda activate cs7641
@@ -51,13 +51,13 @@ unzip archive.zip
 
 ## 3. Re-running Experiments
 ### 3.1 Running the code
-- Ensure that you complete the setup in section 1 and 2 correctly.
+- Ensure that you complete the setup in section 1 and 2 correctly
 - From the `CS7641-Machine-Learing/supervised-learning` directory launch Jupyter using the command `jupyter notebook`
 - Open `Classification on MoCap Dataset.ipynb` and `Classification on Parkinson's Disease Dataset.ipynb` for running the code for their respective datasets
 - To run the code, execute the cells in order 
 
 ### 3.2 Mlflow-specific instructions (optional)
-Parts of the code in the jupyter notebook log metrics and parameters to mlflow. These were then used to create parallel coordinate plots that were added to the report. This logging and plotting was particularly useful for hyperparameter tuning. If you would like to review the experiment results, you follow one of the following approaches:
+Parts of the code in the jupyter notebook log metrics and parameters to mlflow. These were then used to create parallel coordinate plots that were added to the report. This logging and plotting was particularly useful for hyperparameter tuning. If you would like to review the experiment results, follow one of the following approaches:
 
 #### 3.2.1 Logging using the jupyter notebooks and viewing on MLflow UI
 - If the conda environment, data and notebook are setup correctly, you can just run the cells in the notebook that are logging to mlflow
