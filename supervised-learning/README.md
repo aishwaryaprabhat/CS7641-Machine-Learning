@@ -1,4 +1,4 @@
-# How to run code
+# How to run the code
 
 ## 1. Setting up environment
 - Clone the code repository using `git clone https://github.com/aishwaryaprabhat/CS7641-Machine-Learning.git`
