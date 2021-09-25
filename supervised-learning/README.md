@@ -30,5 +30,5 @@ unzip archive.zip
 
 ## References
 - https://www.datacamp.com/community/tutorials/decision-tree-classification-python
-
-
+- https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html
+- https://scikit-learn.org/stable/auto_examples/model_selection/plot_learning_curve.html#sphx-glr-auto-examples-model-selection-plot-learning-curve-py
