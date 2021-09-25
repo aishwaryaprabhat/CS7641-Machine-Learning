@@ -1,4 +1,4 @@
-# CS7641-Machine-Learing
+# CS7641-Machine-Learning
 All code for CS7641 ML
 
 
