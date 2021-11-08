@@ -2,7 +2,7 @@
 
 ## 1. Setting up environment
 - Clone the code repository using `git clone https://github.com/aishwaryaprabhat/CS7641-Machine-Learning.git`
-- Navigate to the `random-optimization` directory using `cd CS7641-Machine-Learing/random-optimization`
+- Navigate to the `random-optimization` directory using `cd CS7641-Machine-Learing/unsupervised-learning`
 - Install conda (refer to https://conda.io/projects/conda/en/latest/user-guide/install/index.html for instructions)
 - Set up and activate the virtual environment using:
 ```
