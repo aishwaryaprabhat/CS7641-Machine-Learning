@@ -2,7 +2,7 @@
 
 ## 1. Setting up environment
 - Clone the code repository using `git clone https://github.com/aishwaryaprabhat/CS7641-Machine-Learning.git`
-- Navigate to the `random-optimization` directory using `cd CS7641-Machine-Learing/random-optimization`
+- Navigate to the `random-optimization` directory using `cd CS7641-Machine-Learing/unsupervised-learning`
 - Install conda (refer to https://conda.io/projects/conda/en/latest/user-guide/install/index.html for instructions)
 - Set up and activate the virtual environment using:
 ```
@@ -34,8 +34,8 @@ unzip archive.zip
 ## 3. Re-running Experiments
 ### 3.1 Running the code
 - Ensure that you complete the setup in section 1 and 2 correctly
-- From the `CS7641-Machine-Learing/unsupervised-learning` directory launch Jupyter using the command `jupyter notebook`
-- Open the notebook `Unsupervised.ipynb`
+- From the `CS7641-Machine-Learing/random-optimization` directory launch Jupyter using the command `jupyter notebook`
+- Open each notebook for the respective optimization problems
 - To run the code, execute the cells in order 
 
 ## 4. References
