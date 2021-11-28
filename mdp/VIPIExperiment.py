@@ -46,7 +46,7 @@ class VIPIExperiment():
         for eps in [0, 0.5, 1]:
             temp_df = pd.DataFrame()
             for alpha in [0.1, 0.5, 1]:
-                vi = QLearning(self.P, self.R, gamma=0.9, epsilon=eps, alpha=alpha)
+                vi = QLearning(self.P, self.R, gamma=0.9, epsilon=eps, alpha=alpha, n_iter=100000)
                 temp_df = pd.DataFrame(vi.run())
                 temp_df["epsilon_start"] = eps
                 temp_df["alpha_start"] = alpha
